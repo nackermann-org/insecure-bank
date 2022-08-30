@@ -9,8 +9,8 @@
 	<name>Insecure Bank</name>
 
 	<properties>
-		<org.springframework-version>4.2.3.RELEASE</org.springframework-version>
-		<org.spring-security-version>4.0.3.RELEASE</org.spring-security-version>
+		<org.springframework-version>5.2.22.RELEASE</org.springframework-version>
+		<org.spring-security-version>5.5.7</org.spring-security-version>
 		<org.slf4j-version>1.7.13</org.slf4j-version>
 	</properties>
 
@@ -124,7 +124,7 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
-			<version>4.3.2.Final</version>
+			<version>6.0.23.Final</version>
 		</dependency>
 		<!-- JAXB -->
 		<dependency>
@@ -141,7 +141,7 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<version>9.2-1004-jdbc4</version>
+			<version>42.2.26</version>
 		</dependency>
 		<!-- HSQLDB -->
 		<dependency>
@@ -163,7 +163,7 @@
 		 <dependency>
 		   <groupId>org.apache.logging.log4j</groupId>
 		   <artifactId>log4j-slf4j-impl</artifactId>
-		   <version>2.14.1</version>
+		   <version>2.17.1</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-fileupload</groupId>
